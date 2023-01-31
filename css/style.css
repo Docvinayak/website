@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'Dai-Banna-SIL-Light-Bold';
+    src: url('Dai-Banna-SIL-Light-Bold.ttf.woff') format('woff'), url('Dai-Banna-SIL-Light-Bold.ttf.svg#Dai-Banna-SIL-Light-Bold') format('svg'), url('Dai-Banna-SIL-Light-Bold.ttf.eot'), url('Dai-Banna-SIL-Light-Bold.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     list-style: none;
 }
 
@@ -112,6 +118,7 @@ nav ul li a:hover {
 
 .hero_left {
     width: 50%;
+    font-family: 'Dai-Banna-SIL-Light-Bold';
 }
 
 #hero_left img {
